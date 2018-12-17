@@ -41,7 +41,11 @@ sudo npm i -g gulp-cli
 
 
 #### Dica
-O tinyPNG tem limite de 500 imagens por mês, então eu coloquei um filtro que faz com que ele processe somente imagens da pasta **img/** mais novas ou que não existam na pasta **dist/**.
+- O tinyPNG tem limite de 500 imagens por mês, então eu coloquei um filtro que faz com que ele processe somente imagens da pasta **img/** mais novas ou que não existam na pasta **dist/**.
 Então a sugestão é sempre manter as imagens na pastas, atualizando somente as imagens necessárias.
+- Para mudar a api key, vá no arquivo gulpfile.js e altere:
+```sh
+        .pipe(tinify('zM54SJP6NVmhvZ0kWvd35LGcYVSj3H0f'))
+```
 
 
