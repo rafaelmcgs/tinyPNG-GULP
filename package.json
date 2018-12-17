@@ -4,7 +4,8 @@
   "description": "Processo de compactação de imagens automatico",
   "main": "index.js",
   "scripts": {
-    "compress": "gulp run"
+    "compress": "gulp run",
+    "createFolders": "gulp createFolders"
   },
   "repository": {
     "type": "git",
