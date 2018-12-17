@@ -7,6 +7,7 @@ Processo automatico de compressão de imagens utilizando o serviço online do Ti
 ```sh
 cd ~/Documents
 git clone https://github.com/rafaelmcgs/tinyPNG-GULP
+cd ~/Documents/tinyPNG-GULP
 npm install
 gulp createFolders
 ```
