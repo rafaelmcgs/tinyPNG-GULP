@@ -23,7 +23,7 @@ cd ~/Documents/tinyPNG-GULP
 gulp compress
 ```
 
-####Se der um erro parecido com:
+#### Se der um erro parecido com:
 
 ```sh
 /usr/local/lib/node_modules/gulp/bin/gulp.js:129
@@ -40,7 +40,7 @@ sudo npm i -g gulp-cli
 - Digite a senha do computador
 
 
-####Dica
+#### Dica
 O tinyPNG tem limite de 500 imagens por mês, então eu coloquei um filtro que faz com que ele processe somente imagens da pasta **img/** mais novas ou que não existam na pasta **dist/**.
 Então a sugestão é sempre manter as imagens na pastas, atualizando somente as imagens necessárias.
 
